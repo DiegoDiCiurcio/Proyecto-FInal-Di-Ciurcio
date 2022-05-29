@@ -1,0 +1,29 @@
+header {
+    margin: 0;
+    width: 100vw;
+    height: 8em;
+    background-color: #FDF9F0;
+    border-bottom: 1px solid rgba($color: #585656, $alpha: 0.1);
+
+    nav {
+        div {
+            a {
+                img {
+                    width: 5.7em;
+                    height: 5.7em;
+                }
+            }
+
+            ul {
+                    .contacto-emergente{
+                        border-radius: 10px;
+                    &:hover {
+                        border: solid 1px darkgrey;
+                        background-color: darkgrey;
+
+                    }
+                }
+            }
+        }
+    }
+}

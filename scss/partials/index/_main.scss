@@ -1,0 +1,41 @@
+main {
+    .titulo-inicio{
+                background-image: url(../assets/bg-inicio.jpg);
+                background-size: cover;
+                background-position: center;
+                width: 100vw;
+                height: 100vh;
+                margin-bottom: 0.2em;
+                border-bottom: 1px solid rgba($color: #585656, $alpha: 0.1);
+        .container {
+                display: flex;
+                flex-flow: column wrap;
+                align-content: center;
+                justify-content: center;
+                transform: translate(0vw, 40vh);
+
+                h1 {
+                    color: rgb(39, 39, 39);
+                    letter-spacing: 2px;
+                    font-size: 3em;
+                    text-align: center;
+                    font-weight: 200;
+                    font-family: 'Poppins', sans-serif;
+                }
+                h2{
+                    font-size: 1.3em;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 200;
+                    color: rgb(15, 15, 15);
+                    text-align: center;
+                }
+                span{
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 200;
+                    color: rgb(8, 8, 8);
+                    font-size: 1em;
+                    text-align: center;
+                }
+            }
+        }
+    }
