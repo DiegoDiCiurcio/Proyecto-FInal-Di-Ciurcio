@@ -1,0 +1,20 @@
+main {
+    .container {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+
+    }
+
+    .sobre-mi {
+        .foto-titulo{
+            background-image: url(../assets/biografia-1.jpg);
+            object-fit:scale-down;
+            width: 40%;
+            h1{
+                text-align: right; 
+                
+            }
+        }
+    }
+}
